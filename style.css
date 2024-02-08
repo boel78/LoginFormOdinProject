@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: montserrat;
 }
 .wholePage{
     display: flex;
@@ -39,7 +39,7 @@ body{
 .topText{
     width: 70%;
     font-size: 21px;
-    font-weight: 540;
+    font-weight: 550;
     padding-left: 3rem;
     padding-top: 7rem;
 }
@@ -52,7 +52,7 @@ form{
 }
 form h3{
     font-size: 21px;
-    font-weight: 540;
+    font-weight: 550;
     margin: 15px 0;
     padding: 0;
 }
@@ -80,6 +80,27 @@ label{
     color: rgb(53, 53, 53);
     font-weight: bolder;
     letter-spacing: 1px;
+}
+.bottomText{
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.bottomText a{
+    text-decoration: none;
+    color: rgb(175, 157, 128);
+}
+button{
+    border: 0px;
+    border-radius: 6px;
+    padding: 14px;
+    background-color: rgb(195, 176, 148);
+    width: 10rem;
+    box-shadow: 0.2px 0.3px 7px lightgray;
+}
+.btnText{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255)
 }
 
 
