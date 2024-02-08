@@ -5,6 +5,7 @@ body{
 .wholePage{
     display: flex;
 }
+
 .leftContainer{
     display: flex;
     flex-direction: column;
@@ -19,6 +20,7 @@ body{
 .leftContainer a{
     color: rgb(241, 241, 241);
 }
+
 .logoContainer{
     margin-top: 12rem;
     display: flex;
@@ -32,10 +34,14 @@ body{
     height: 22%;
 }
 .logoContainer img{
-    height: 100%;
+    height: 80%;
 }
 .topText{
-    width: 80%;
+    width: 70%;
+    font-size: 21px;
+    font-weight: 540;
+    padding-left: 3rem;
+    padding-top: 7rem;
 }
 
 form{
@@ -57,9 +63,6 @@ form ul, li{
 }
 input, label{
     display: block;
-}
-.topText{
-    padding-left: 3em;;
 }
 .inputsForm{
     display: flex;
