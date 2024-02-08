@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 48%;
     height: 100vh;
     background-image:url("images/pond.jpg");
     color: rgb(241, 241, 241);
@@ -32,10 +32,10 @@ body{
     color: white;
     background-color: rgba(0, 0, 0, 0.626);
     height: 15%;
-    gap: 5%;
+    gap: 1%;
 }
 .logoContainer img{
-    height: 70%;
+    height: 89%;
 }
 .topText{
     width: 70%;
