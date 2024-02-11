@@ -76,6 +76,16 @@ input{
     height: 1.4rem;
     background-color: rgb(245, 245, 245);
 }
+
+input:invalid:focus{
+        border: 1px solid red;
+        background-color: rgb(255, 156, 156); 
+}
+
+input:valid{
+    border: 1px solid lightgray;
+    background-color: rgb(245, 245, 245);
+}
 label{
     font-size: 10px;
     color: rgb(53, 53, 53);
